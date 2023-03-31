@@ -3,15 +3,16 @@ html {
     width: auto;
 	margin: 0;
 	padding: 0;
-    background-image: url('images/MarriageLetterBackground.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+
 }
 
 body {
 	margin: 0;
 	padding: 0;
+    background-image: url('images/MarriageLetterBackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 #scroll-container {
