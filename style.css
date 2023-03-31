@@ -1,0 +1,231 @@
+html {
+    height: 100%;
+    width: auto;
+	margin: 0;
+	padding: 0;
+    background-image: url('images/MarriageLetterBackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#scroll-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+    background-image: url('images/MarriageLetterBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#houseStamp {
+    display: flex;
+}
+
+#sign {
+    font-family:fantasy;
+    text-align: left;
+    margin-left: 15%;
+    font-size: x-large;
+}
+
+#sign1 {
+    font-family:fantasy;
+    text-align: left;
+    margin-left: 20%;
+    font-size: large;
+}
+
+#sign2 {
+    font-family:fantasy;
+    text-align: left;
+    margin-left: 20%;
+    font-size: x-large;
+}
+
+#titles {
+    font-family: 'Franklin Gothic Medium';
+    text-align: left;
+    margin-left: 15%;
+}
+
+#titles1 {
+    font-family: 'Franklin Gothic Medium';
+    text-align: left;
+    margin-left: 20%;
+}
+
+#scroll-container.active {
+	animation: unroll 2s ease-out forwards;
+    display: block;
+}
+
+#scroll-container.roll {
+	animation: roll 2s ease-out forwards;
+}
+
+@keyframes unroll {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+@keyframes roll {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
+
+#scroll-contentPage, #scroll-contentKay, #scroll-contentNewman, 
+#scroll-contentMichelle, #scroll-contentDressler, #scroll-contentElizabeth, 
+#scroll-contentParker, #scroll-contentKohl {
+    display: block;
+    text-align: center;
+    align-items: center;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 100px auto;
+    margin-bottom: 10px;
+    width: auto;
+    max-width: 800px;
+	max-height: 1000px;
+    background-size: 100% 100%;
+}
+
+#familyCrests{
+    max-width: 800px;
+	max-height: 750px;
+}
+
+#familyCrestsBox {
+    justify-content: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+#buttonBox {
+    justify-content: center;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+#imgDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#stoneImg {
+    width: 300px;
+    height: 250px;
+    
+}
+
+#map {
+    width: 300px;
+    height: 250px;
+}
+
+#info {
+    text-align: center;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 100px auto;
+    width: auto;
+    max-width: 800px;
+	max-height: 1000px;
+}
+
+#infotext {
+    display: flex;
+    justify-content: space-between;
+}
+
+#guestDiv {
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#guest {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#guestTitle {
+    text-align: center;
+    width: 400px;
+}
+
+#password {
+    background-color: aqua;
+}
+
+button {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#hideLetter {
+    display: block;
+    background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 100px;
+}
+
+h1, h2, h3 {
+	font-family: cursive;
+	color: #333;
+	margin-top: 0;
+}
+
+p {
+	font-family: cursive;
+	color: #333;
+	line-height: 1.5;
+	margin-bottom: 1em;
+}
+
+a {
+	color: #0077cc;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+  
