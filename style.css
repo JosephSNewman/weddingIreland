@@ -9,6 +9,11 @@ html {
     background-position: center;
 }
 
+body {
+    margin: 0;
+	padding: 0;
+}
+
 #scroll-container {
 	position: absolute;
 	top: 0;
